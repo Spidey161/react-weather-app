@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  text-align: center;
+}
+
+/* Main container */
+.weather-container {
+  max-width: 400px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s ease;
+}
+
+/* Input and button group */
+.input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 10px;
+  flex: 1;
+  min-width: 180px;
+  max-width: 65%;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result img {
+  width: 100px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .weather-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  input, button {
+    width: 100%;
+    border-radius: 8px;
+    margin: 5px 0;
+  }
+
+  input {
+    max-width: 100%;
+  }
+
+  .result img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .result p, .result h2 {
+    font-size: 16px;
+  }
+}
