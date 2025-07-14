@@ -1,5 +1,18 @@
 # 🌤️ React Weather App
 
+* COMPANY* : CODTECH IT SOLUTIONS
+  
+* NAME*    : Manu yadav
+  
+* INTERN ID* : CT06DF646
+  
+* DOMAIN* : Full Stack Web Development
+  
+* DURATION* : 6 WEEKS
+  
+* MENTOR* : NEELA SANTHOSH KUMAR
+
+
 A responsive weather app built using **React** and the **OpenWeatherMap API**. It features live weather data, background changes based on weather conditions, location auto-detection, and city search functionality.
 
 ---
